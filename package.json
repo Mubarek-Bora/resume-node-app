@@ -1,0 +1,12 @@
+{
+  "name": "resume-app",
+  "version": "1.0.0",
+  "description": "My Resume hosted on Node.js",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
