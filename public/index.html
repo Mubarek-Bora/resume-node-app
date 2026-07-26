@@ -5,25 +5,49 @@
     <title>Mubarek Bora - Resume</title>
     <style>
         body { font-family: Arial, sans-serif; margin: 40px; background: #f4f4f4; }
-        .resume { background: white; padding: 20px; border-radius: 8px; max-width: 800px; margin: auto; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
-        h1 { color: #333; }
+        .resume { background: white; padding: 30px; border-radius: 8px; max-width: 800px; margin: auto; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+        .header { display: flex; align-items: center; gap: 20px; margin-bottom: 10px; }
+        .header img { width: 90px; height: 90px; border-radius: 50%; object-fit: cover; }
+        h1 { color: #333; margin: 0; }
         p, li { color: #555; }
         a { color: #2a6ebb; }
+        h2 { border-bottom: 2px solid #febf34; padding-bottom: 4px; }
+        .job-title { font-weight: bold; color: #333; }
+        .job-meta { color: #888; font-style: italic; }
     </style>
 </head>
 <body>
     <div class="resume">
-        <h1>Mubarek Bora</h1>
-        <p><strong>Full-Stack Developer | Cloud Enthusiast</strong></p>
-        <p>Email: maol2ga@gmail.com</p>
+        <div class="header">
+            <img src="images/profile.jpg" alt="Mubarek Bora">
+            <div>
+                <h1>Mubarek Bora</h1>
+                <p style="margin: 4px 0 0;"><strong>Full-Stack Developer</strong></p>
+            </div>
+        </div>
+        <p>Seattle, WA &middot; Email: maol2ga@gmail.com &middot; GitHub: <a href="https://github.com/Mubarek-Bora" target="_blank" rel="noopener">Mubarek-Bora</a> &middot; Portfolio: <a href="https://mubarek-boraportifolio.netlify.app" target="_blank" rel="noopener">mubarek-boraportifolio.netlify.app</a></p>
+
+        <h2>Summary</h2>
+        <p>Full-stack developer with hands-on experience building modern web applications using React, Next.js, TypeScript, Node.js, Express, and PostgreSQL. Enjoys turning ideas into production-ready applications while continuously expanding skills in AWS, DevOps, and software engineering best practices.</p>
+
         <h2>Skills</h2>
         <ul>
-            <li>JavaScript, Node.js, Express</li>
-            <li>React, HTML, CSS</li>
-            <li>AWS EC2, S3, IAM</li>
+            <li>JavaScript / TypeScript</li>
+            <li>React / Next.js</li>
+            <li>Node.js / Express</li>
+            <li>PostgreSQL / MySQL</li>
+            <li>AWS / DevOps (Docker, Kubernetes, Terraform)</li>
         </ul>
+
         <h2>Experience</h2>
-        <p>Developed full-stack web applications and deployed cloud-based solutions using AWS services.</p>
+        <p class="job-title">FedEx Express &mdash; Cargo Screening Agent (Aviation Security)</p>
+        <p class="job-meta">May 2023 &ndash; Present, Seattle, WA</p>
+        <p>Performs aviation cargo screening to ensure compliance with TSA security regulations; inspects and verifies shipments while maintaining strict safety and security standards; collaborates with operations teams to ensure efficient cargo movement and on-time flight operations. Recognized with a Bravo Zulu Award for outstanding operational performance.</p>
+
+        <h2>Education</h2>
+        <p class="job-title">Bahir Dar University</p>
+        <p class="job-meta">Bachelor's Degree &middot; Bahir Dar, Ethiopia &middot; Graduated 2010</p>
+
         <h2>Projects</h2>
         <ul>
             <li><strong>TaskFlow</strong> &mdash; Kanban-style task/project tracker with JWT auth, refresh-token rotation, and Google/GitHub OAuth (Next.js, TypeScript, Prisma, PostgreSQL). <a href="https://taskflow-rose-one.vercel.app" target="_blank" rel="noopener">Live</a> | <a href="https://github.com/Mubarek-Bora/taskflow" target="_blank" rel="noopener">Code</a></li>
@@ -31,6 +55,9 @@
             <li><strong>Finance Tracker</strong> &mdash; Expense tracker with JWT auth and a live spending-breakdown chart. <a href="https://expense-tracker-starter-ten.vercel.app" target="_blank" rel="noopener">Live</a> | <a href="https://github.com/Mubarek-Bora/expense-tracker-starter" target="_blank" rel="noopener">Code</a></li>
             <li><strong>Renewal Radar</strong> &mdash; Tracks SSL/domain expiry and emails alerts before they lapse (React, Node/Express, Prisma, PostgreSQL). <a href="https://renewal-radar-ivory.vercel.app" target="_blank" rel="noopener">Live</a> | <a href="https://github.com/Mubarek-Bora/renewal-radar" target="_blank" rel="noopener">Code</a></li>
             <li><strong>Starbucks Clone DevOps Pipeline</strong> &mdash; Next.js app deployed through a full CI/CD pipeline (Docker, Kubernetes, Jenkins, SonarQube, Trivy, Terraform, Prometheus/Grafana). <a href="https://github.com/Mubarek-Bora/amazon-prime-video-kubernetes" target="_blank" rel="noopener">Code</a></li>
+            <li><strong>Amazon Clone</strong> &mdash; E-commerce web app replicating Amazon's features. <a href="https://amazon-clone-2028.netlify.app" target="_blank" rel="noopener">Live</a> | <a href="https://github.com/Mubarek-Bora/Amazon-clone-frontend" target="_blank" rel="noopener">Code</a></li>
+            <li><strong>Evangadi Forum</strong> &mdash; Community forum platform built with modern full-stack technologies. <a href="https://evangadi-forum-2028.netlify.app" target="_blank" rel="noopener">Live</a> | <a href="https://github.com/Mubarek-Bora/Evangadi-forum" target="_blank" rel="noopener">Code</a></li>
+            <li><strong>Netflix Clone</strong> &mdash; Netflix-inspired web app with a dynamic homepage and video streaming features. <a href="https://mubarek-bora.github.io/Netflix-Clone-2024" target="_blank" rel="noopener">Live</a> | <a href="https://github.com/Mubarek-Bora/Netflix-Clone-2024" target="_blank" rel="noopener">Code</a></li>
         </ul>
     </div>
 </body>
